@@ -1,0 +1,72 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    position: absolute;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 50px 0 50px;
+}
+header a{
+    text-decoration: none;
+}
+.header__brand a{
+    color: rgb(245, 243, 160);
+    text-shadow: 1px 1px 2px #000;
+}
+.header__nav{
+    list-style-type: none;
+    display: flex;
+}
+.nav-item a{
+    color: rgb(255, 251, 0);
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+    border-radius: 8px;
+    
+}
+.nav-item a:hover{
+    background-color: rgb(255, 251, 0);
+    color: rgb(77, 77, 77);
+}
+.header__brand{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+footer{
+    min-height: 120px;
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29)); 
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+footer li{
+    padding: 24px;
+}
+footer img{
+    height: 80px;
+    object-fit: cover;
+}

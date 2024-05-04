@@ -1,0 +1,67 @@
+
+body{
+    width: 100%;
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+header{
+    position: relative;
+}
+
+.header__brand a{
+    color: #B7E6EB;
+    font-size: 50px;
+}
+.nav-item a{
+    color: rgb(183, 230, 235);
+}
+.nav-item a:hover{
+    background-color: rgb(183, 230, 235);
+}
+main{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.places-container{
+    width: 45%;
+    display: flex;
+    height: 200px;
+    background-color: white;
+    box-shadow: 1xp 1px 4px rgba(0 0 0 0.2);
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0;
+}
+
+.places-container img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.places-info{
+    padding: 22px;
+    text-align: left;
+}
+.places-info p, a{
+    font-size: 14px;
+}
+.places-info h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.places-info p{
+    margin: 0;
+}
+.places-info a{
+    float: right;
+    text-decoration: none;
+    color:  rgb(22, 211, 228);
+    border-radius: 5px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+.places-info a:hover{
+    background-color: rgb(235, 253, 255);
+}

@@ -1,0 +1,99 @@
+main {
+    width: 100%;
+}
+
+.main__content {
+    height: 800px;
+    background-image: url(/assets/images/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.content-box {
+    position: relative;
+    background-color: rgba(51, 47, 47, 0.8);
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    top: 200px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    color: white;
+}
+
+.content-box h3 {
+    text-transform: uppercase;
+
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.content-box p {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 18px 0;
+}
+
+.content-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    background-color: yellow;
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #3c3b3b;
+}
+
+.content-box a:hover {
+    background-color: rgb(198, 198, 20);
+
+}
+
+.main__highlights {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));;
+}
+
+.main__highlights h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.highlights-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.highlights-item{
+    margin: 0 24px;
+}
+
+.highlights-item img {
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(51, 47, 47, 0.8);
+}
+.highlights-item p{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: rgb(124, 123, 123);
+}
+.highlights-item p strong{
+    color: rgb(0, 160, 117);
+}
